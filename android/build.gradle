@@ -1,12 +1,11 @@
-
 buildscript {
   repositories {
     mavenCentral()
     google()
   }
 }
-apply plugin: 'com.android.application'
 
+apply plugin: 'com.android.application'
 
 android {
   namespace "com.joel"
@@ -33,7 +32,7 @@ android {
   defaultConfig {
     applicationId 'com.joel'
     minSdkVersion 19
-    targetSdkVersion 34
+    targetSdkVersion 33
     versionCode 1
     versionName "1.0"
     multiDexEnabled true
